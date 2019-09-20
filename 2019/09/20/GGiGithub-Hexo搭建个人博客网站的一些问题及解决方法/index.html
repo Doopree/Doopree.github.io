@@ -68,7 +68,9 @@
       
 
       
-        <p>昨天心血来潮想搭建一个自己的私人博客网站，于是决定在github里面用hexo来搭建，这个博客的搭建网上有很多教程，我自己也遇到了很多不一样的问题，但主要问题都是因为一些组件的缺失导致的，比如说：</p>
+        <p>  遇到了一个小问题。</p>
+<a id="more"></a>
+<p>昨天心血来潮想搭建一个自己的私人博客网站，于是决定在github里面用hexo来搭建，这个博客的搭建网上有很多教程，我自己也遇到了很多不一样的问题，但主要问题都是因为一些组件的缺失导致的，比如说：</p>
 <p><img src="https://ftp.bmp.ovh/imgs/2019/09/85ca48112cd50d70.png" alt><br>大部分网上都能找到解决方法，有的时候下载时间可能有点长，耐心等待一会儿就好。<br>在我跟着教程按部就班走到最后的时候，浏览器里输入localhosts:4000出来的却是：<br><img src="https://ftp.bmp.ovh/imgs/2019/09/957a6bee8fa5e317.png" alt></p>
 <p>百度里找了半天无果，于是去谷歌试了试，发现有人遇到跟我一样的问题，结果发现我还是缺少组件的原因。执行npm audit fix 查看是否少了什么组件，然后在通过npm install hexo-xxx-xxx安装即可。<br>$ npm audit fix<br><img src="https://ftp.bmp.ovh/imgs/2019/09/5723f513ad40738c.png" alt><br>发现有好多组件没有添加，执行npm install hexo-xxx-xxx 就好了。</p>
 <p>所有组件安装完成后，执行hexo clean,hexo g重新生成静态文件。再次启动 hexo server访问<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a>  终于成功，显示一个默认界面。<br><img src="https://ftp.bmp.ovh/imgs/2019/09/cca7832038b1f495.png" alt></p>
@@ -78,7 +80,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://Doopree.github.io/Doopree.github.io/2019/09/20/GGiGithub-Hexo搭建个人博客网站的一些问题及解决方法/" data-id="ck0rs05990000z8sz12oufk4d"
+      <a data-url="http://Doopree.github.io/Doopree.github.io/2019/09/20/GGiGithub-Hexo搭建个人博客网站的一些问题及解决方法/" data-id="ck0rsgy4d000028szarmpogj9"
          class="article-share-link">Share</a>
       
     </footer>
